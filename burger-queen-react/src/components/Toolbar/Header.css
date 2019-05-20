@@ -1,0 +1,13 @@
+.Header{
+    color: aqua;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.collapse {
+    float: right;
+}
