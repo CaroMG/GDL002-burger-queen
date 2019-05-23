@@ -20,7 +20,7 @@ body {
   line-height: 3rem;
   padding: 0% 10rem;
   margin: 0%;
-  background: blue;
+  background: cornflowerblue;
 }
 
 .category ul li a {
@@ -29,4 +29,8 @@ body {
   font-size: 11rem;
   line-height: 27rem;
   display: block;
+}
+
+.print-order {
+  background: orange;
 }

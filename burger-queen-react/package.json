@@ -2,11 +2,14 @@
   "name": "burger-queen-react",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://github.com/CaroMG/GDL002-burger-queen",
-    "dependencies": {
+  "homepage": "https://github.com/CaroMG/GDL002-burger-queen",
+  "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "react-bootstrap": "^1.0.0-beta.8"
   },
   "scripts": {
     "start": "react-scripts start",

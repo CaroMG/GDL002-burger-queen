@@ -20,8 +20,6 @@ class CategoryMeal extends Component {
     }
 
 
-
-
     render() {
         return (
             <div className="category">

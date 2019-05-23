@@ -15,19 +15,21 @@ class App extends Component {
  <Menu/>
  <Container>
    <Row>
-     <Col sm= {8}>
+     <Col sm= {7}>
      <div className="menu">
-      <button>
+      <li>
         <CategoryBreakfast name= "Almuerzos"/>
         <CategoryMeal name= "Comida y cena"/>
-      </button>
+      </li>
     </div>
      </Col>
-     <Col sm= {4}></Col>
+     <Col sm= {5}>
+     <div className = "print-order">
+     
+     </div>
+     </Col>
    </Row>
  </Container>
-
- 
   </div>
   );
     }

@@ -10,13 +10,9 @@ class Header extends Component {
   <a class="navbar-brand" href="#">Vegan Burger Queen</a>
         <a class="nav-link" href="#">Mesera<span class="sr-only">(current)</span></a>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cocina</a>
+  <a class="nav-link" href="#">Cocina</a>
       </li>
 </nav>
-
-<div className = "Title">
-<h1> Burger Queen </h1>
-</div>
 
 </div> 
          ) }

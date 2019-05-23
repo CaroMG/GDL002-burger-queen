@@ -30,7 +30,7 @@ class CategoryBreakfast extends Component {
                 <ul className={this.state.visible? "visible" : "no-visible"}>
                     {data.breakfast.map((item,i)=> {
                         return <Menu extraname = {i} name= {item.description} price={item.price} key={item} />
-                        })}
+                        })},
                 </ul>
              </li>
             </div>
