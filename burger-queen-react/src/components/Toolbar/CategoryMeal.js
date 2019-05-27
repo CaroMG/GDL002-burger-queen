@@ -23,14 +23,12 @@ class CategoryMeal extends Component {
     render() {
         return (
             <div className="category">
-             <li>
                 <h3 onClick={this.handleClick.bind(this)}>{this.props.name}</h3>
                 <ul className={this.state.visible? "visible" : "no-visible"}>
                     {data.meal.map((item,i)=> {
-                      return <Menu extraname = {i} name= {item.description} price={item.price} key={item} />
+                      return <Menu type="meal" addToOrder={this.props.addToOrder} extraname = {i} name= {item.description} price={item.price} key={"meal"+i} />
                     })}
                 </ul>
-             </li>
             </div>
         );
     }
