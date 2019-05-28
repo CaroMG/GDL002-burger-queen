@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import "./Header.css";
 import {Link} from 'react-router-dom'
 import ChefView from "./ChefView";
@@ -12,11 +12,11 @@ class Header extends Component {
 <nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
   <a className="navbar-brand" href="#">Vegan Burger Queen</a>
         <a className="nav-link" href="#">Mesera<span className="sr-only">(current)</span></a>
-        <BrowserRouter>    
+        <HashRouter>    
       <li className="nav-item">
   <Link to = "/ChefView"className="nav-link" href="#">Cocina</Link>
       </li>
-      </BrowserRouter>
+      </HashRouter>
 </nav>
 
 </div> 

@@ -2,7 +2,7 @@
   "name": "burger-queen-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CaroMG.github.io/gdl002-burger-queen",
+  "homepage": "https://CaroMG.github.io/gdl002-burger-queen-react",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",

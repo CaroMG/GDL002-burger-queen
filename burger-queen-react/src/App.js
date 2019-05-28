@@ -1,4 +1,4 @@
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import React, {Component} from "react";
 import VeganBurger from './VeganBurger.png'
 import CategoryBreakfast from "./components/Toolbar/CategoryBreakfast.js";
@@ -57,9 +57,9 @@ handle(event)
     return (
       <div className = "App">
  <Header/>
- <BrowserRouter>
+ <HashRouter>
  <Route exact path = "/ChefView" Component = {ChefView}/>
- </BrowserRouter>
+ </HashRouter>
  <Container>
    <Row>
      <Col sm= {7}><div className="card">
