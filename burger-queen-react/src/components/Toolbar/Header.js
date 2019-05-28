@@ -9,14 +9,14 @@ class Header extends Component {
         return(
                 
 <div className= "Header">
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar navbar-dark bg-dark">
   <a className="navbar-brand" href="#">Vegan Burger Queen</a>
         <a className="nav-link" href="#">Mesera<span className="sr-only">(current)</span></a>
+        <BrowserRouter>    
       <li className="nav-item">
-      <BrowserRouter>
   <Link to = "/ChefView"className="nav-link" href="#">Cocina</Link>
-  </BrowserRouter>
       </li>
+      </BrowserRouter>
 </nav>
 
 </div> 

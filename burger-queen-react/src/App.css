@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px}
+*{margin: 0px; padding: 0px; color: black;}
 
 body {
   background-color: white;
@@ -18,9 +18,8 @@ body {
 .category { 
   font-size: 1.5rem;
   line-height: 3rem;
-  padding: 0% 10rem;
-  margin: 0%;
-  background: cornflowerblue;
+  padding: 0%;
+  margin-top: 3%;
 }
 
 .category ul li a {
@@ -33,4 +32,18 @@ body {
 
 .print-order {
   background: orange;
+  font-size: 1.5rem;
+}
+
+.customer-name {
+  color: black;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin-top: 10%;
 }
